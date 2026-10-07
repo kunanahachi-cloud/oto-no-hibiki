@@ -518,7 +518,7 @@ export default function App() {
             <input
               value={reading}
               onChange={(event) => setReading(event.target.value)}
-              placeholder="例：くるみ"
+              placeholder="例：はなこ"
               style={inputStyle}
               required
             />
@@ -530,7 +530,7 @@ export default function App() {
             <input
               value={name}
               onChange={(event) => setName(event.target.value)}
-              placeholder="例：胡実"
+              placeholder="例：花子"
               style={inputStyle}
             />
           </label>
@@ -541,7 +541,7 @@ export default function App() {
             <input
               value={nickname}
               onChange={(event) => setNickname(event.target.value)}
-              placeholder="例：くー"
+              placeholder="例：はなちゃん"
               style={inputStyle}
             />
           </label>
